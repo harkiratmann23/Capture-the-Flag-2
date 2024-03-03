@@ -1,0 +1,194 @@
+Delivered-To: ssufiyan71@gmail.com
+Received: by 2002:a05:7301:4707:b0:f4:5aaf:ee36 with SMTP id rt7csp1131543dyb;
+        Sat, 18 Nov 2023 06:35:48 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IG7jbwEe5pG24J0WXI3dOYEiX7X3fJDjPJgcurDrRR8z3d400fVI2jPv2Ydl/nqW3lsKHXW
+X-Received: by 2002:a17:90b:3e85:b0:27d:882f:e6c5 with SMTP id rj5-20020a17090b3e8500b0027d882fe6c5mr2043821pjb.9.1700318147759;
+        Sat, 18 Nov 2023 06:35:47 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1700318147; cv=none;
+        d=google.com; s=arc-20160816;
+        b=qFDXIfHO27ruqSOSAMYRVMwfmQEWsd+G9eTpXJi1nnT4OCg5xfjVv2wesdmdog7fPM
+         LcRJ4nzjELmUPAhOvyGoYpHKpec73POu1gcmNjCG978TdlH3SkXgcDH/LKf5HhP6XvDg
+         eDxsSHBuHJPKPnUNrd4JKKqj90xhxh/9RTqboSdq0kiPjbKCiWwmqHRzK1q54MZxVNuQ
+         iQ4vn7VqNzSkCHxvRXLEhfT/xb0lOb255RENnzNs+wRbiFbv9F/Mppaju7xyhGwyplez
+         06mMiXKLpxjGdA6v/iMoFmeUFEODxGu7S0mPVNGMOU4vIIEnWU4+imWDYBuj5Mz/WJaS
+         NG5Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:date:subject:from:reply-to
+         :message-id:ironport-hdrordr:ironport-data;
+        bh=E33FXGP1YBuicgDcddHMIyfcPg1rliZQKJ8t/uJWlYk=;
+        fh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+        b=CpIf+q7pjyPRKPXj6JxGg1y067y+lDUU/pE9mHDwK5qYSYjuYXaoGuV24qx76dvvDG
+         nW51p2lwT0dUbVWU65dppRCcRIE5+zmhQxg4XjvoJRFsMgIQQCsl+mTOvP2HcXcBRNS0
+         turVTLHDgEPUWnvV2P0GPWlFPb3fh+pxaIszxsbqK6O3bB5+wvCcptQ6qHr/4zqLViDX
+         Y0mmWS2k+5RfPMkhzmuco55dX8AWVFMnLQIgJK0zw7zw/n/0oKhGyqtuyvJbgYcyCQrz
+         xLSddmIIYJcwjET0Z+C7IsV7UxZjh8LrCw5lHnJ7IAZVaAksHIhtJdG8YLwG16a+hPDo
+         Rx2w==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of mrsjanet_yellen9@netvigator.com designates 210.87.250.172 as permitted sender) smtp.mailfrom=mrsjanet_yellen9@netvigator.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=netvigator.com
+Return-Path: <mrsjanet_yellen9@netvigator.com>
+Received: from imsantv72.netvigator.com (imsantv72.netvigator.com. [210.87.250.172])
+        by mx.google.com with ESMTPS id u2-20020a170902b28200b001ca335f7147si4199896plr.57.2023.11.18.06.35.43
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 18 Nov 2023 06:35:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of mrsjanet_yellen9@netvigator.com designates 210.87.250.172 as permitted sender) client-ip=210.87.250.172;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mrsjanet_yellen9@netvigator.com designates 210.87.250.172 as permitted sender) smtp.mailfrom=mrsjanet_yellen9@netvigator.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=netvigator.com
+Received: from wbironout1b.netvigator.com (wbironout1b.netvigator.com [210.87.247.26])
+	by imsantv72.netvigator.com (8.14.7/8.14.4) with ESMTP id 3AIEZdG8012957;
+	Sat, 18 Nov 2023 22:35:39 +0800
+X-IPAS-Result: =?us-ascii?q?A0D//wC0ylhl//E+eHBCGIESgUhRAwGDHwpIHoEcgmSIa?=
+ =?us-ascii?q?YI5DYMYR4NNk1KBF4EaAoFdhjOBagEOAQEBUAECBAEBgQ80g1IQBYcGARURS?=
+ =?us-ascii?q?wEGAQEBAQMCAwEBAQEBAQMCBQMCAQcEgQoThTsBBTQ/FgGFZwMQBAEBAQIXA?=
+ =?us-ascii?q?gUKAiABBScCCAIBBwYDDgYKGBcBBBEFAQMLATsBAgIBAQ86gVACAghLgikBA?=
+ =?us-ascii?q?TMCBqhMgXKBMQ0NZ4JjgXytKgQKgSQBP3OBPog6AZBkOIQ8BwkBEgGDfRQBK?=
+ =?us-ascii?q?YIpgVaBH4QOgh8HMoEKDAmBA4FVgShVhHOCeoZiB2kIgSGBFClygXAXgg+DT?=
+ =?us-ascii?q?06DCYQ9gmqBEm6KSoFigmY5gRuCTQM+R4FUAwkDBwUbESILJwwjDRQ0ESw1C?=
+ =?us-ascii?q?GwHRx0IBwOeV4MCH4EgIhkuNDYfBUMbU4ETAYZNiniPYipbMGiKWZVuBgQDh?=
+ =?us-ascii?q?AqidolGjGYDhAgSASeBYItGTrtGc4EZhCKBGyRpcHCBbgklgVsSfgEBiRGBd?=
+ =?us-ascii?q?JZVI4EGCYVhCBIBCgGBQ4MXAQ?=
+IronPort-Data: A9a23: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
+ w==
+IronPort-HdrOrdr: A9a23:2c8QWqsb75UPsV/leGVJUYnD7skDE9V00zEX/kB9WHVpm5qj5q
+ OTdZUgtCMc5wx6ZJhNo7290cq7L080i6QY3WB5B97LNzUO01HJEGgN1+Tf/wE=
+X-Talos-CUID: =?us-ascii?q?9a23=3A2ipPZWlJ8K8GJJEQO2K3xvHizEHXOXLW6y/NAlT?=
+ =?us-ascii?q?lMCV0U4OFFFDT2IhZrfM7zg=3D=3D?=
+X-Talos-MUID: =?us-ascii?q?9a23=3ABLHHjQxDg44O3OfL9b6GUBXNUEmaqLr2Kmsqv6Q?=
+ =?us-ascii?q?jgNONCRxsZBK40BHqWoByfw=3D=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.04,209,1695657600"; 
+   d="scan'208,217";a="330801325"
+X-MGA-submission: =?us-ascii?q?MDFAdHiNofUTbefA5aloQvtoUDrN+vGu0ffCqA?=
+ =?us-ascii?q?kNTRGRH7IL6KEJrPYQN/UqgaVem5J5zZICJuBWZ0JYwVdYzTdjya+o1o?=
+ =?us-ascii?q?O+qp48aK9R5PJzRNpuu41MUrxmrgKAe/t7WwQms3wHVCKmWfKjMXJx1Z?=
+ =?us-ascii?q?08?=
+Message-Id: <4d013a$9rf85d@wbironout1v2.netvigator.com>
+Received: from unknown (HELO User) ([112.120.62.241])
+  by wbironout1v2.netvigator.com with SMTP; 18 Nov 2023 22:35:23 +0800
+Reply-To: <jyellen32@gmail.com>
+From: "Mrs Janet Yellen"<mrsjanet_yellen9@netvigator.com>
+Subject: Re US Department of Treasury
+Date: Sat, 18 Nov 2023 09:35:11 -0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY bgcolor=#FFFFFF leftmargin=5 topmargin=5 rightmargin=5 bottommargin=5>
+<FONT size=2 color=#000000 face="Arial">
+<DIV>
+US Department of Treasury</DIV>
+<DIV>
+Address:1500 Pennsylvania Ave NW, Washington, DC 20220, USA.</DIV>
+<DIV>
+Formed: September 2, 1789</DIV>
+<DIV>
+Preceding agency: Board of Treasury</DIV>
+<DIV>
+ </DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+Greetings to you.</DIV>
+<DIV>
+ </DIV>
+<DIV>
+ </DIV>
+<DIV>
+Introduction: My name is Janet Yellen an American economist, Served as the 15th chair-lady of the Federal Reserve from 2014 to 2018, Currently serving as the 78th United States secretary of the treasury since January 26, 2021.</DIV>
+<DIV>
+ </DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+This is to let you know about the conclusion of our meeting yesterday with World Bank Director( Anshula Kant ) FBI Director (Christopher A.Wray ) United Nation Secretary General ( Ant?nio Guterres ) and Director of Centers for Disease Control and Prevention ( Rochelle Walensky ) regarding this Pandemic situation arising across the globe which is as a result of Corona Virus (COVID-19).</DIV>
+<DIV>
+ </DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+The World Bank and United Nations release the sum of $100,000.000.00 One Hundred Million Dollars) to be shared among the 10 Scam Victims as a Compensation.</DIV>
+<DIV>
+ </DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+I was subjected to submit the first 10 names to receive the sum of $10,000.000.00 (Ten Million Dollars Only) from this fund while the second batch will be approved by next week for other payment, Through the help of FBI Director ( Christopher A. Wray ) who gave me your name and email to add so that you will partake in this fund since he narrated to me that you have been a scam victim for several years now and have nothing left so this will serve as an opportunity for you to replace for what you have lost in the past years and be able to survive with your family this time.</DIV>
+<DIV>
+ </DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+You are eligible to receive this $10,000.000.00 USD as a compensation but you are strictly warned to stop any further communication with any person or office that claims to have any fund for you because if you lose any money again, we shall not attend to you again.</DIV>
+<DIV>
+ </DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+You are to Kindly Re-confirm this information so that I can commence with the documentation process to enable you receive your fund within</DIV>
+<DIV>
+48 hours.</DIV>
+<DIV>
+ </DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+Your Full Name.....</DIV>
+<DIV>
+Your Address......</DIV>
+<DIV>
+Your Occupation.....</DIV>
+<DIV>
+Your Phone Number...</DIV>
+<DIV>
+Your Age.....</DIV>
+<DIV>
+Awaiting for your response ASAP.</DIV>
+<DIV>
+ </DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+Regards.</DIV>
+<DIV>
+Janet Yellen</DIV>
+<DIV>
+United States Secretary of the Treasury</DIV>
+<DIV>
+&nbsp;</DIV>
+</FONT>
+</BODY></HTML>
